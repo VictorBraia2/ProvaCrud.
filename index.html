@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imóveis CRUD</title>
+</head>
+<body>
+  <h1>Imóveis e Cômodos</h1>
+  
+  <form id="createImovelForm">
+    <input type="text" id="descricao" placeholder="Descrição" required>
+    <input type="date" id="dataCompra" required>
+    <input type="text" id="endereco" placeholder="Endereço" required>
+    <button type="submit">Adicionar Imóvel</button>
+  </form>
+  
+  <ul id="imoveisList"></ul>
+  <script src="app.js"></script>
+</body>
+</html>
